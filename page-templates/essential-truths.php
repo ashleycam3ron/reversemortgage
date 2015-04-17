@@ -10,10 +10,15 @@ Template Name: Essential Truths
 
 	<div class="container">
 		<div class="row">
-			<aside class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0 meeting">
-				<h2>Want to know the most important facts about a Reverse Mortgage?</h2>
-				<?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
+			<aside class="col-xs-10 col-xs-offset-1 col-sm-3 col-sm-offset-0">
+				<div class="meeting">
+					<h2>Want to know the most important facts about a Reverse Mortgage?</h2>
+					<?php echo do_shortcode('[gravityform id="1" title="false" description="false" ajax="true"]'); ?>
+				</div>
+				<a class="talk fancybox" href="#schedule"></a>
 			</aside>
+
+
 			<div class="col-xs-11 col-xs-offset-1 col-sm-8 content">
 				<div class="row">
 

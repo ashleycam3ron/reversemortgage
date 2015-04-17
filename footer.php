@@ -27,18 +27,17 @@
 		jQuery('.fancybox').fancybox({
 			padding: 0,
 			maxWidth	: 800,
-		maxHeight	: 600,
-		fitToView	: false,
-		minWidth : 320,
-		width		: '70%',
-		height		: '70%',
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none'
+			maxHeight	: 600,
+			fitToView	: false,
+			minWidth : 320,
+			width		: '70%',
+			height		: '70%',
+			autoSize	: false,
+			closeClick	: false,
+			openEffect	: 'none',
+			closeEffect	: 'none'
+			});
 		});
-	});
-
 
 	jQuery(window).on("scroll touchmove", function () {
 	    jQuery('.navbar').toggleClass('tiny', jQuery(document).scrollTop() > 0);

@@ -217,6 +217,7 @@ input#gform_submit_button_4:hover{background: -moz-linear-gradient(90deg, rgba( 
 	.meeting .btn-default{padding: 10px 25px;}
 	.meeting h2 {  font-size: .9rem;  margin: 11px auto 18px;}
 
+	.talk{width:100%;height: 200px;background: url(images/talk-today.jpg) no-repeat center;background-size: cover;margin: 10px 0;border-radius: 5px;box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);display: block;}
 
 /* !Products */
 	.products{background: url(images/panel.png) repeat;}
@@ -287,6 +288,11 @@ input#gform_submit_button_4:hover{background: -moz-linear-gradient(90deg, rgba( 
 	.gform_wrapper #gform_fields_4 .validation_message{/* color:#333; */padding:0!important}
 	.gform_wrapper li.gfield_error input[type=text],.gform_wrapper li.gfield_error input[type=url],.gform_wrapper li.gfield_error input[type=email],.gform_wrapper li.gfield_error input[type=tel],.gform_wrapper li.gfield_error input[type=number],.gform_wrapper li.gfield_error input[type=password],.gform_wrapper li.gfield_error textarea{border-color:#FCB040!important}
 	.gform_wrapper li.gfield.gfield_error.gfield_contains_required label.gfield_label,.gform_wrapper li.gfield.gfield_error.gfield_contains_required div.ginput_container{margin:0!important;max-width:100%}
+
+
+	.gform_wrapper li.gfield.gfield_error, .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+  background-color: transparent !important;border: 0 !important;}
+  	#footer .gform_wrapper div.validation_error{border: 0;  padding: 0;  margin: 0 0 10px;  text-align: center;}
 
 /* !Footer */
 	#footer{background: #363e5a; /* Old browsers */

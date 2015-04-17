@@ -80,7 +80,7 @@
 	  <div class="subscribe">
 		  <div class="row">
 		      <h1>Keep me in the loop</h1>
-		      <p class="col-xs-10 col-xs-push-1">Receive personalized emails in your inbox with the latest tips and updates</p>
+		      <p>Receive personalized emails in your inbox with the latest tips and updates</p>
 		      <p><a class="btn btn-info" href="#" role="button">Subscribe</a></p>
 		      <span><i>We respect your privacy</i></span>
 		  </div>
